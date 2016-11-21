@@ -52,6 +52,7 @@ const getFruitBasket = () => {
   for (let i=0; i<=size; i++) {
     basket.push(Object.assign({}, getRandomFruit()))
   }
+  
   return basket;
 }
 
